@@ -1,0 +1,1066 @@
+/* .product-element-top:hover {
+    box-shadow: 15px 15px rgb(0, 0, 0, .2);
+} */
+
+.header-banner {
+    z-index: 1;
+}
+
+input#coupon_code::placeholder {
+    color: rgba(0, 0, 0, .3);
+}
+
+.promo-banner .banner-inner .btn {
+    text-transform: none;
+    /*  background: #99c961!important; */
+}
+
+form.shopify-ordering.with-list ul li:nth-child(7) {
+    display: none;
+}
+
+form.shopify-ordering.with-list ul li:nth-child(8) {
+    display: none;
+}
+
+.shopify-challenge__container .g-recaptcha {
+    margin: 4rem 0 2em !important;
+}
+
+.blog-post-loop .entry-title {
+    font-size: 28px !important;
+}
+
+.blog-post-loop .entry-title a {
+    font-size: 20px;
+}
+
+.blog-post-loop .entry-title {
+    min-height: 0;
+    height: 50px;
+    line-height: 27px;
+}
+
+.blog-post-loop.post-single-page .entry-content p {
+    text-align: justify;
+}
+
+.color-scheme-light .basel-product-categories li a {
+    font-weight: 600;
+}
+
+/* .cart_list.product_list_widget  dl.variation{
+
+  display: none;
+  
+} */
+
+.single-product-content .product-images .thumbs-position-bottom .owl-nav,
+.single-product-content .product-images .thumbs-position-left .owl-nav {
+    background-color: transparent !important;
+}
+
+p.buttons:before {
+    content: 'No tax on fresh fruits. Free shipping above Rs. 350.';
+    font-size: 13px;
+}
+
+.widget_shopping_cart .buttons a:first-child {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.template- .header-spacing {
+    display: block !important;
+}
+
+.shopify-challenge__container {
+    height: 42vh !important;
+}
+
+.widget_shopping_cart_content .checkout {
+    display: none;
+}
+
+.oj-content h5 span.pt-number {
+    left: -1.2em !important;
+}
+
+@media (max-width: 767px) {
+    .oj-content h5 span.pt-number {
+        left: 0 !important;
+    }
+}
+
+/*----------subscription page -------*/
+
+.pl {
+    padding-left: 10px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+@media (max-width: 767px) {
+    .pl {
+        text-align: center;
+        padding-left: 30px;
+    }
+}
+
+.bb {
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.rs {
+    font-family: 'Hind', sans-serif;
+}
+
+#kimaye {
+    background-image: url("https://cdn.shopify.com/s/files/1/0449/5225/6667/files/page_background_subs.jpg?v=1613676349");
+}
+
+#kimaye .section {
+    padding: 5% 0;
+}
+
+#kimaye .para {
+    font-size: 18px;
+    font-family: "PT Sans", sans-serif;
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    #kimaye .para {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #kimaye .para {
+        font-size: 16px;
+    }
+}
+
+#kimaye .section_subsc_title {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Bitterbrush';
+    letter-spacing: 1px;
+    position: relative;
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    #kimaye .section_subsc_title {
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    #kimaye .section_subsc_title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #kimaye .section_subsc_title {
+        font-size: 30px;
+    }
+}
+
+#kimaye .section_subsc_desc {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: "PT Sans", sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media screen and (min-width: 0) and (max-width: 768px) {
+    #kimaye .section_subsc_desc {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #kimaye .section_subsc_desc {
+        font-size: 20px;
+    }
+}
+
+#kimaye .subscription_banner.desktop {
+    background-image: url("https://cdn.shopify.com/s/files/1/0449/5225/6667/files/Fruits-X-Subscription_0401.jpg?v=1613676348");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100vh;
+    background-position: bottom right;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .subscription_banner.desktop {
+        display: none;
+    }
+}
+
+#kimaye .subscription_banner.mobile {
+    background-image: url("https://cdn.shopify.com/s/files/1/0449/5225/6667/files/subscription-mobile.jpg?v=1613676348");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    position: relative;
+    min-height: 100vh;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .subscription_banner.mobile {
+        display: block;
+        background-position: bottom left;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner.mobile {
+        background-image: url("https://cdn.shopify.com/s/files/1/0449/5225/6667/files/subscription-mobile-new.jpg?v=1613676347");
+    }
+}
+
+#kimaye .subscription_banner.mobile .note {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    padding: 15px 50px;
+}
+
+#kimaye .subscription_banner .banner_content {
+    width: 60%;
+    padding-right: 8%;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .subscription_banner .banner_content {
+        width: 100%;
+        padding: 24% 5% 60% 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    #kimaye .subscription_banner .banner_content {
+        width: 100%;
+        padding: 13% 5% 60% 5%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content {
+        width: 100%;
+        padding: 13% 5% 10% 5%;
+        text-align: center;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .banner_subheading {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .banner_subheading {
+        font-size: 18px;
+        line-height: 1.2;
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .banner_subheading br {
+        display: none;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .steps {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .steps {
+        align-items: flex-start;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .steps .product_desc {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#kimaye .subscription_banner .banner_content .steps .product_desc p {
+    font-size: 16px;
+    margin: 0;
+}
+
+#kimaye .subscription_banner .banner_content .steps .product_desc img {
+    padding-right: 20px;
+}
+
+@media (max-width: 992px) {
+    #kimaye .subscription_banner .banner_content .steps .product_desc img {
+        width: 60px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .steps .product_desc .pro_para {
+        line-height: 1.2;
+        padding-top: 5px;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .steps img {
+    padding: 0px 10px;
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .steps img {
+        padding: 0px 0px;
+        width: 40px;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 0 10px 0;
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .icons {
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .icons .each_icon {
+    width: 20%;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .subscription_banner .banner_content .icons .each_icon {
+        width: 20%;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .icons .each_icon {
+        width: 33.33%;
+        margin-bottom: 10px;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .icons .each_icon .icon_img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .icons .each_icon .icon_img {
+        width: 50%;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .icons .each_icon .icon_desc {
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    margin: 0;
+}
+
+#kimaye .subscription_banner .banner_content .icons .each_icon .icon_desc.small {
+    font-size: 12px;
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .icons .each_icon .icon_desc {
+        line-height: 1.2;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+#kimaye .subscription_banner .banner_content .icons .each_icon .icon_desc .erase {
+    position: relative;
+}
+
+#kimaye .subscription_banner .banner_content .icons .each_icon .icon_desc .erase:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 22px;
+    height: 3px;
+    background: red;
+    transform: rotate(-35deg);
+}
+
+#kimaye .subscription_banner .banner_content .note {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    #kimaye .subscription_banner .banner_content .note {
+        width: 100%;
+        position: static;
+        transform: unset;
+    }
+}
+
+#kimaye .subscription_banner .girl_box {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    #kimaye .subscription_banner .girl_box {
+        display: none;
+    }
+}
+
+#kimaye .girl_section {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section {
+        padding: 15% 0 5%;
+    }
+}
+
+#kimaye .girl_section .grass {
+    position: absolute;
+    right: 0;
+    bottom: -23%;
+    transform: rotateY(180deg);
+    z-index: 2;
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    #kimaye .girl_section .grass {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #kimaye .girl_section .grass {
+        width: 15%;
+    }
+}
+
+#kimaye .girl_section .your_basket {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kimaye .girl_section .your_basket .first_half_basket {
+    padding-top: 20px;
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .first_half_basket {
+        padding-top: 10px;
+        width: 100%;
+    }
+}
+
+#kimaye .girl_section .your_basket .first_half_basket .product_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#kimaye .girl_section .your_basket .first_half_basket .product_list .each_product {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 33.33%;
+    padding: 5px;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .first_half_basket .product_list .each_product {
+        width: 50%;
+    }
+}
+
+#kimaye .girl_section .your_basket .first_half_basket .product_list .each_product img {
+    width: 100%;
+}
+
+#kimaye .girl_section .your_basket .first_half_basket .product_list .each_product .product_para {
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .first_half_basket .product_list .each_product .product_para {
+        font-size: 15px;
+    }
+}
+
+#kimaye .girl_section .your_basket .first_half_basket .product_list .each_product .product_para .red_clr {
+    color: #cd171f;
+    font-size: 25px;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .first_half_basket .product_list .each_product .product_para .red_clr {
+        font-size: 20px;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket {
+    width: 50%;
+    padding: 114px 30px 0 30px;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .girl_section .your_basket .sec_half_basket {
+        padding: 168px 30px 0 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    #kimaye .girl_section .your_basket .sec_half_basket {
+        padding: 140px 30px 0 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .sec_half_basket {
+        width: 100%;
+        padding: 20px 20px 0 20px;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs {
+    display: flex;
+    align-items: center;
+    padding-bottom: 13px;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs {
+        padding-bottom: 0px;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .product {
+    width: 70%;
+    padding-left: 60px;
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .product h3 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .product p {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs .product {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs .product {
+        width: 60%;
+        padding-left: 0px;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs {
+    width: 30%;
+    justify-items: flex-end;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs {
+        width: 40%;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs .incr_decr {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs .incr_decr {
+        justify-content: flex-end;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs .incr_decr a {
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs .incr_decr input {
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs .incr_decr input:focus {
+    outline: none;
+    border: 2px solid #929c39;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs .incr_decr input {
+        width: 20%;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .products_packs .packs .incr_decr input {
+        width: 25%;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .choice {
+    padding: 30px 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .choice {
+        padding: 15px 0 15px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #kimaye .girl_section .your_basket .sec_half_basket .choice {
+        padding: 8px 0 8px;
+    }
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .choice h3 {
+    padding-bottom: 6px;
+    padding-right: 10px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#kimaye .girl_section .your_basket .sec_half_basket .choice form select {
+    border: none !important;
+    /*             background: transparent; */
+    background-color: #EEEFE9;
+    border-bottom: 1px solid #000 !important;
+    outline: none;
+    color: #000;
+    height: 22px;
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    #kimaye .girl_section .your_basket .total_sub .products_packs_sub {
+        width: 50%;
+    }
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub .product_sub {
+    width: 50%;
+    text-align: center;
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub .product_sub h3 {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub .product_sub .red_clr {
+    color: #cd171f;
+    font-size: 25px;
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub .packs_sub {
+    width: 50%;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub .packs_sub .incr_decr {
+    display: flex;
+    align-items: center;
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub .packs_sub .incr_decr a {
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#kimaye .girl_section .your_basket .total_sub .products_packs_sub .packs_sub .incr_decr input {
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    padding: 3px;
+    font-size: 12px;
+    background: transparent;
+}
+
+#kimaye .girl_section .your_basket .total_sub .subscribe_btn_sub {
+    text-align: center;
+    margin-top: 45px;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .girl_section .your_basket .total_sub .subscribe_btn_sub {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    #kimaye .girl_section .your_basket .total_sub .subscribe_btn_sub {
+        margin-top: 25px;
+    }
+}
+
+#kimaye .girl_section .your_basket .total_sub .subscribe_btn_sub .red_btn {
+    background: #cd171f;
+    color: #fff;
+    padding: 6px 25px;
+    border: 1px solid #cd171f;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#kimaye .yellow_section {
+    background-image: url("https://cdn.shopify.com/s/files/1/0449/5225/6667/files/yellow_bg_subs.png?v=1613676349") !important;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-color: transparent !important;
+}
+
+@media (max-width: 767px) {
+    #kimaye .yellow_section {
+        padding-top: 25%;
+        padding-bottom: 10%;
+    }
+}
+
+#kimaye .yellow_section .section_subsc_title {
+    position: relative;
+    padding: 20px 0;
+}
+
+#kimaye .yellow_section .section_subsc_title img {
+    position: absolute;
+    top: 0;
+    right: 19%;
+    width: 6%;
+}
+
+@media (max-width: 767px) {
+    #kimaye .yellow_section .section_subsc_title img {
+        top: 0;
+        right: 0;
+        width: 13%;
+    }
+}
+
+#kimaye .yellow_section .essential_pillars {
+    padding: 3% 8% 0;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+    #kimaye .yellow_section .essential_pillars {
+        flex-direction: column;
+        padding: 3% 0 0;
+    }
+}
+
+#kimaye .yellow_section .essential_pillars .pillar {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    width: 33.33%;
+}
+
+@media (max-width: 767px) {
+    #kimaye .yellow_section .essential_pillars .pillar {
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+}
+
+#kimaye .yellow_section .essential_pillars .pillar img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .pillar_desc {
+    text-align: center;
+    margin: 0;
+    font-size: 16px;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs {
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+}
+
+@media (max-width: 1200px) {
+    #kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    #kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs {
+        padding: 0 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    #kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs {
+        padding: 0 60px;
+    }
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .product {
+    width: 50%;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .product p {
+    margin: 0;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .product .red_clr {
+    color: #cd171f;
+    font-size: 25px;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .packs {
+    width: 50%;
+    justify-items: flex-end;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .packs .incr_decr {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    #kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .packs .incr_decr {
+        justify-content: flex-end;
+    }
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .packs .incr_decr a {
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .packs .incr_decr input {
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    padding: 3px;
+    font-size: 12px;
+    border: 1px solid #948f8f;
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .packs .incr_decr input:focus {
+    outline: none;
+    border: 2px solid #929c39;
+}
+
+@media (max-width: 767px) {
+    #kimaye .yellow_section .essential_pillars .pillar .combine_desc .products_packs .packs .incr_decr input {
+        width: 18%;
+    }
+}
+
+#kimaye .yellow_section .essential_pillars .pillar .pillar_title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#kimaye .yellow_section .choice {
+    padding: 0px 0 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#kimaye .yellow_section .choice h3 {
+    padding-bottom: 6px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#kimaye .yellow_section .choice form select {
+    border: none !important;
+    /*         background: transparent; */
+    background-color: #EDCE67;
+    border-bottom: 1px solid #000 !important;
+    margin-left: 10px;
+    outline: none;
+    color: #000;
+    height: 22px;
+}
+
+#kimaye .yellow_section .total .products_packs {
+    display: flex;
+    align-items: center;
+    width: 14%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    #kimaye .yellow_section .total .products_packs {
+        width: 50%;
+    }
+}
+
+#kimaye .yellow_section .total .products_packs .product {
+    width: 50%;
+    text-align: center;
+}
+
+#kimaye .yellow_section .total .products_packs .product h3 {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+#kimaye .yellow_section .total .products_packs .product .red_clr {
+    color: #cd171f;
+    font-size: 25px;
+}
+
+#kimaye .yellow_section .total .products_packs .packs {
+    width: 50%;
+    white-space: nowrap;
+}
+
+#kimaye .yellow_section .total .products_packs .packs .incr_decr {
+    display: flex;
+    align-items: center;
+}
+
+#kimaye .yellow_section .total .products_packs .packs .incr_decr a {
+    padding: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+#kimaye .yellow_section .total .products_packs .packs .incr_decr input {
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    padding: 3px;
+    font-size: 12px;
+    background: transparent;
+}
+
+#kimaye .yellow_section .total .subscribe_btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#kimaye .yellow_section .total .subscribe_btn .red_btn {
+    background: #cd171f;
+    color: #fff;
+    padding: 6px 25px;
+    border: 1px solid #cd171f;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+/* City drop down Start */
+
+.main-nav .menu {
+    display: flex !important;
+}
+
+#city {
+    background-color: #eeecec;
+    border: none;
+    width: fit-content;
+    font-size: 1.17em;
+    letter-spacing: .05em;
+    font-family: PT Sans;
+    margin-top: 15px;
+    color: black;
+}
+
+#city:hover {
+    color: #3e8e41;
+}
+
+.jas_cover {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.act-scroll right-column {
+    height: 29px;
+    line-height: 31px;
+}
+
+.right-column {
+    padding-bottom: 9px;
+}

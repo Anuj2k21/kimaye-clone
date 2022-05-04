@@ -1,0 +1,15 @@
+.main-header {
+    background-color: #0003
+}
+
+.main-header.header-has-no-bg.color-scheme-light.act-scroll {
+    border: none;
+    box-shadow: none;
+    background-color: #000000e6
+}
+
+.promo-banner .banner-inner h2 {
+    line-height: 1
+}
+
+/*# sourceMappingURL=/s/files/1/0449/5225/6667/t/25/assets/custom.css.map?v=164351255195772621351648812892 */
